@@ -1,0 +1,125 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(115deg, rgba(135, 185, 200, 0.74), rgba(135, 185, 200, 0.37));
+}
+
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.flx{
+    display: flex;
+    flex-direction: row;
+}
+
+.bdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 210px;
+    height: 400px;
+    padding: 60px;
+}
+
+#div1{
+    background-color: #E28525;
+    border-radius: 16px 0 0 16px;
+}
+
+#div2{
+    background-color: #016972;
+}
+
+#div3{
+    background-color: #00403F;
+    border-radius: 0 16px 16px 0;
+}
+
+h2{
+    color: #eee;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 2px 2px rgba(238, 238, 238, 0.37);
+}
+
+.yazi{
+    line-height: 30px;
+    color: #ddd;
+    font-weight: 500;
+}
+
+.flxend{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.but{
+    margin-bottom: 8px;
+    margin-left: -4px;
+    width: 140px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px 2px rgba(238, 238, 238, 0.37);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 10px;
+    transition: all 500ms ease-in-out;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.but:hover{
+    transform: scale(1.16);
+    animation: but-dolas 0.5s forwards ease-in-out;
+    font-weight: 600;
+}
+
+@keyframes but-dolas {
+    33%{
+        transform: translateX(20px);
+    }
+    66% {
+        transform: translateX(-20px);
+    }
+    99%{
+        transform: translateX(0) scale(1.16);
+    }
+}
+
+#but1{
+    color: #E28525;
+}
+
+#but2{
+    color: #016972;
+}
+
+#but3{
+    color: #00403F;
+}
+
+img{
+    transition: all 200ms ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.25);
+}
+
+h2{
+    transition: all 200ms ease-in-out;
+}
+
+h2:hover{
+    transform: scale(1.1) translateX(10px);
+}
