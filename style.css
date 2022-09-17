@@ -123,3 +123,44 @@ h2{
 h2:hover{
     transform: scale(1.1) translateX(10px);
 }
+
+@media only screen and (max-width: 1000px) {
+
+    body{
+        background-color: rgba(135, 185, 200, 0.74);
+    }
+
+    .orta{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .flx{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bdiv{
+        width: 300px;
+        height: 360px;
+        padding: 60px;
+    }
+
+    #div1{
+        border-radius: 16px 16px 0 0;
+        margin-top: 20px;
+    }
+    
+    #div3{
+        border-radius: 0 0 16px 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bdiv{
+        width: 80%;
+        padding: 10%;
+    }
+}
